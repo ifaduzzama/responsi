@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 1780px){
+body{
+   background-color: red;
+}
+header{
+    width: 100%;
+}
+
+.logo img{
+    height: 80px;
+    margin-top: 5px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* justify-content: center; */
+}
+nav ul {
+    margin-right: 50px;
+}
+nav ul li a{
+font-size: 35px;
+}
+
+ul li a:hover{}
+
+.but{
+   margin-right: 50px;
+}
+.but button{
+height: 50px;
+width: 100px;
+font-size: 25px;
+font-weight: bold;
+margin: 10px;
+}
+.text-div{
+    margin-left: 100px;
+}
+.text-div h2{
+    font-size: 65px;
+}
+.text-div p{
+    font-size: 30px;
+}
+.tab{
+ margin-left: 200px;
+}
+.tab h3{
+    font-size: 40px;
+}
+.nav2{
+ width: 700px;
+ height: 80px;
+}
+.nav2 ul li{
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    /* background-color: gray; */
+}
+ .nav2 button{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .perant h3{
+    font-size: 50px;
+ }
+ .div-im1 img{
+    height: 130px;
+    width: 150px;
+ }
+ .div-im1 p{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ h3{
+    font-size: 50px;
+ }
+ .about-text{}
+
+ .about-text strong{
+    font-size: 30px;
+ }
+ .about-text p{
+    font-size: 24px;
+ }
+ .tek{}
+
+ .tek-text li {
+    font-size: 20px;
+ }
+
+ .therapy{
+    
+ }
+ .or h5{
+    font-size: 25px;
+ }
+ .or p{
+    font-size: 20px;
+ }
+ .or i{
+    font-size: 50px;
+ }
+ .ot i{
+    font-size: 50px;
+ }
+ .ot h5{
+    font-size: 25px;
+ }
+ .ot p{
+    font-size: 20px;
+ }
+
+ .background-img{}
+
+ .background-text{
+    font-size: 20px;
+}
+
+ .background-text h4{
+    font-size: 35px;
+ }
+
+    
+.h3-2 h3{}
+
+.couples{}
+
+.couples-img{}
+
+.couples-tek li i{
+ margin: 30px;
+}
+.couples-text{
+    font-size: 30px;
+}
+.couples-text button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1560px){
+   body{
+      background-color: palegoldenrod;
+   }
+   .text-div{
+      margin: 30px;
+   }
+   .text-div h2{
+      font-size: 60px;
+   }
+.tab{
+  margin: 30px;
+}
+.nav2 button{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 1350px){
+   body{
+      background-color:chartreuse;
+   }
+ 
+   nav ul li a{
+      display: none;
+   }
+}
+
+@media (max-width: 1080px){
+   body{
+      background-color:chocolate;
+   }
+   nav{
+   justify-content: space-between;
+   }
+   .but button{
+     margin: 0px 0px;
+     
+   }
+   .logo img{
+      margin-left: 45%;
+   }
+   .text-div{
+    margin: 0px;
+   }
+   .text-div h2{
+     font-size: 40px;
+   }
+   .but2{
+      
+   }
+   .couples{
+      display:block;
+     
+    }
+   .couples-img img{
+      margin-left: 400px;
+      margin-bottom: 20px;
+   }
+   .couples-text{
+      margin-left: 200px;
+       }
+  .couples-tek {
+   font-size: 25px;
+  }
+  .couples-tek li{
+   margin: 0 20px;
+   margin-bottom: 20px;
+  }
+  .couples-tek button{
+ 
+  }
+}
+@media (max-width: 880px){
+   body{
+      background-color:rgb(179, 187, 204);
+   }
+   header{
+      width: 100%;
+   }
+   nav{}
+   
+.but button{
+margin-right: 200px;
+}
+section{
+   margin: 200px  0px;
+}
+.perant h3{
+   font-size: 40px;
+}
+.div-im1 img{
+   margin: 28px;
+   height: 100px;
+   width: 100px;
+}
+.div-im1 p{
+   font-size: 15px;
+}
+.div-im1 h3{
+   font-size: 40px; 
+}
+}
+
